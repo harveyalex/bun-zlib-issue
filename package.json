@@ -1,0 +1,22 @@
+{
+  "name": "zlib-issue-recreation",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/pubnub": "4.x.x",
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "pubnub": "4.32.1",
+    "uuid": "^10.0.0"
+  },
+  "trustedDependencies": [
+    "pubnub",
+    "uuid"
+  ]
+}
